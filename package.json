@@ -28,8 +28,8 @@
    "lint-staged":
     {
       "*.js": [
-        "eslint",
-        "jest --findRelatedTests"
+        "eslint --ext .js --fix",
+        "jest --bail --findRelatedTests"
       ]
     }
 }
